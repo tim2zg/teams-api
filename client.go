@@ -95,3 +95,19 @@ func (t *TeamsClient) GetTenants() ([]models.Tenant, error) {
 func (t *TeamsClient) GetPinnedChannels() ([]csa.ChannelId, error) {
 	return t.chatSvc.GetPinnedChannels()
 }
+
+func (t *TeamsClient) SendMessage(channel string, message string) error {
+	return t.chatSvc.SendMessage(channel, message)
+}
+
+func (t *TeamsClient) ReactToMessage(channel string, messageID string, reaction string) error {
+	return t.chatSvc.ReactToMessage(channel, messageID, reaction)
+}
+
+func (t *TeamsClient) RemoveReactionToMessage(channel string, messageID string, reaction string) error {
+	return t.chatSvc.RemoveReactionToMessage(channel, messageID, reaction)
+}
+
+func (t *TeamsClient) DeleteMessage(channel string, message string) (err error) {
+	return t.chatSvc.DeleteMessage(channel, message)
+}

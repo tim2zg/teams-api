@@ -20,7 +20,7 @@ type CSASvc struct {
 }
 
 const ChatSvcAgg = "https://teams.microsoft.com/api/csa/api/"
-const MessagesHost = "https://emea.ng.msg.teams.microsoft.com/"
+const MessagesHost = "https://ch.ng.msg.teams.microsoft.com/"
 
 // Requires an aud:https://chatsvcagg.teams.microsoft.com token
 

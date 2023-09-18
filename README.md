@@ -2,6 +2,16 @@
 
 An unofficial wrapper for the unofficial Microsoft Teams API
 
+## TODO:
+- [ ] Tasks
+- [ ] Images
+- [ ] Files
+- [X] Messages
+- [X] Delete messages
+- [ ] Edit messages
+- [X] reactions
+- [ ] trouter service
+
 ## Description
 
 This library (still work in progress) was created with the goal
